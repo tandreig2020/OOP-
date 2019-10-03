@@ -1,0 +1,141 @@
+.cell {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto; 
+
+    padding: 10px;
+    margin: 10px;
+
+    background-color:whitesmoke;
+    border: 1px solid red;
+    text-align: center;
+    box-shadow: 5px 10px;
+}
+
+
+img {
+  max-width: 300px;
+  height: auto;
+  
+}
+
+h2 {
+    text-align: center;
+    text-decoration: darkred;
+    text-decoration-line: underline;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: darkblue;
+    text-shadow: 2px 2px 4px;
+
+}
+
+
+
+* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: brown;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline overline;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:red;
+}
+
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+
+.topnav1 {
+  float: left;
+  color:black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: underline overline;
+  font-size: 16px;
+}
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  color:red;
+}
+
+
+
+ul {
+  float: center;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  float: center;
+  text-align: center;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: underline overline;
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* code that is here, until the first @media block, will apply to any screen size */
+#somethingorother {
+  width: 800px ;
+}
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #somethingorother {
+    width: 120px ;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #somethingorother {
+    width: 320px ;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  #somethingorother {
+    width: 480px ;
+  }
+}
+
+/* code that is here will apply to any screen size */
